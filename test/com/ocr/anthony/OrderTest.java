@@ -16,6 +16,7 @@ public class OrderTest {
 
     @BeforeEach
     public void setUpStreams() {
+
         System.setOut(new PrintStream(outContent));
     }
 
